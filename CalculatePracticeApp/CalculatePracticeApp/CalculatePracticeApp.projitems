@@ -12,9 +12,18 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Checker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\AnswerCorrectConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\DoubleStringConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\NumbersVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomCommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyTimer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RandomGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ResourceLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml">
@@ -25,5 +34,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Images\false.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Images\true.png" />
   </ItemGroup>
 </Project>

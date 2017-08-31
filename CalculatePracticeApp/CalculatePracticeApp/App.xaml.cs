@@ -14,6 +14,7 @@ namespace CalculatePracticeApp
 			InitializeComponent();
 
 			MainPage = new CalculatePracticeApp.MainPage();
+            
 		}
 
 		protected override void OnStart ()

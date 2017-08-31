@@ -12,6 +12,7 @@ namespace CalculatePracticeApp
 		public MainPage()
 		{
 			InitializeComponent();
+            this.BindingContext = new MainViewModel();
 		}
 	}
 }

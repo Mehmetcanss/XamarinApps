@@ -14,6 +14,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		CalculatePracticeApp\CalculatePracticeApp\CalculatePracticeApp.projitems*{32234aef-4f42-4c82-9b78-f51de86c454b}*SharedItemsImports = 4
+		CalculatePracticeApp\CalculatePracticeApp\CalculatePracticeApp.projitems*{7dbd2dcf-d8a0-43c3-af71-7dda41771378}*SharedItemsImports = 4
 		CalculatePracticeApp\CalculatePracticeApp\CalculatePracticeApp.projitems*{bfcbb5cf-1924-4b40-bd05-9e84161a50da}*SharedItemsImports = 4
 		CalculatePracticeApp\CalculatePracticeApp\CalculatePracticeApp.projitems*{f9eec058-8e2a-41c7-9168-91722c8321da}*SharedItemsImports = 13
 	EndGlobalSection
