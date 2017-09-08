@@ -27,5 +27,7 @@ namespace XamarinRecipeApp.Models
         public string Directions { get; set; }
 
         public string ImageName { get; set; }
+
+        public bool Recommended { get; set; }
     }
 }
